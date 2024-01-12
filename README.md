@@ -11,10 +11,10 @@ SiTukik is an application intended to appreciate tourists, especially tourists a
 ![App Screenshot](https://github.com/HappyCoder-GDSC-Hackfest-2024/SiTukik/blob/main/ScreenshotsApp/LoginPage_validation.png)
 ![App Screenshot](https://github.com/HappyCoder-GDSC-Hackfest-2024/SiTukik/blob/main/ScreenshotsApp/Dashboard.png)
 
-
 ## About Team
-
+Team Name : Happy Coder
 - Terresa Alicia as Hustler
 - Aziz Setiawan as Hipster
 - Hildan Kusto Utomo as Hacker
+
 
