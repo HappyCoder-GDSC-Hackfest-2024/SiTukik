@@ -4,12 +4,16 @@
 SiTukik is an application intended to appreciate tourists, especially tourists at Kaliratu Beach, Kebumen, who participate in preserving the marine ecosystem by releasing hatchlings into the sea.
 
 
-## Screenshots
+## App Screenshots
 
 ![App Screenshot](https://github.com/HappyCoder-GDSC-Hackfest-2024/SiTukik/blob/main/ScreenshotsApp/HomePage.png)
 ![App Screenshot](https://github.com/HappyCoder-GDSC-Hackfest-2024/SiTukik/blob/main/ScreenshotsApp/LoginPage.png)
 ![App Screenshot](https://github.com/HappyCoder-GDSC-Hackfest-2024/SiTukik/blob/main/ScreenshotsApp/LoginPage_validation.png)
 ![App Screenshot](https://github.com/HappyCoder-GDSC-Hackfest-2024/SiTukik/blob/main/ScreenshotsApp/Dashboard.png)
+
+## API Screenshots
+![App Screenshot](https://github.com/HappyCoder-GDSC-Hackfest-2024/SiTukik/blob/main/ScreenshotsApp/LoginAccount_api-test.png)
+![App Screenshot](https://github.com/HappyCoder-GDSC-Hackfest-2024/SiTukik/blob/main/ScreenshotsApp/RegisterAccount_api-test.png)
 
 ## About Team
 Team Name : Happy Coder
