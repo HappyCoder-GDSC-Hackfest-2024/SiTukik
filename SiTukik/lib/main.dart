@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:penyukita/pages/HomePage.dart';
-// import 'package:flutter_native_splash/flutter_native_splash.dart';
+import 'package:penyukita/pages/authentication/LoginPage.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await dotenv.load(fileName: 'env/.env.development');
   runApp(const MyApp());
 }
 
@@ -12,13 +15,19 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    String AppName = dotenv.env['APP_NAME'] ?? 'Default Title';
     return MaterialApp(
-      title: 'SiTukik',
+      title: AppName,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        appBarTheme: AppBarTheme(
+          backgroundColor: Color.fromARGB(255, 0, 169, 225), // Warna App Bar
+        ),
+        colorScheme: ColorScheme.fromSeed(
+            seedColor: const Color.fromARGB(255, 0, 169, 225)),
         useMaterial3: true,
+        textTheme: GoogleFonts.poppinsTextTheme(),
       ),
-      home: HomePage(),
+      home: LoginPage(),
     );
   }
 }
