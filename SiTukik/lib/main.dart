@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:penyukita/pages/authentication/LoginPage.dart';
+import 'package:penyukita/SplashScreen.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         textTheme: GoogleFonts.poppinsTextTheme(),
       ),
-      home: LoginPage(),
+      home: SplashScreen(),
     );
   }
 }
